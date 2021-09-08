@@ -1,0 +1,135 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-08T13:06:40.204Z",
+        "line": 24,
+        "name": "Successful Login with Valid Credentials",
+        "description": "",
+        "id": "login-test-feature;successful-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 91\nCurrent browser version is 93.0.4577.63 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-UKOAJHJ\u0027, ip: \u0027192.168.1.7\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002716.0.1\u0027\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x00403733+2504499]\n\tOrdinal0 [0x0039C401+2081793]\n\tOrdinal0 [0x002A2628+1058344]\n\tOrdinal0 [0x002C071A+1181466]\n\tOrdinal0 [0x002BC58C+1164684]\n\tOrdinal0 [0x002B9DC3+1154499]\n\tOrdinal0 [0x002E9B82+1350530]\n\tOrdinal0 [0x002E97DA+1349594]\n\tOrdinal0 [0x002E5D4B+1334603]\n\tOrdinal0 [0x002C22B4+1188532]\n\tOrdinal0 [0x002C3149+1192265]\n\tGetHandleVerifier [0x0057FB8C+1512252]\n\tGetHandleVerifier [0x0062B0DF+2214031]\n\tGetHandleVerifier [0x00484BC3+484211]\n\tGetHandleVerifier [0x00483E69+480793]\n\tOrdinal0 [0x003A218D+2105741]\n\tOrdinal0 [0x003A66E8+2123496]\n\tOrdinal0 [0x003A6827+2123815]\n\tOrdinal0 [0x003AFB73+2161523]\n\tBaseThreadInitThunk [0x76FD6359+25]\n\tRtlGetAppContainerNamedObjectPath [0x777787A4+228]\n\tRtlGetAppContainerNamedObjectPath [0x77778774+180]\n\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\r\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\r\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\r\n\tat java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)\r\n\tat java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)\r\n\tat java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)\r\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)\r\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)\r\n\tat java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)\r\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\r\n\tat java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:131)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:181)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:168)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\r\n\tat com.nopcommerce.stepdef.testStepdef.user_launch_chrome_browser(testStepdef.java:21)\r\n\tat ✽.user launch chrome browser(classpath:features/firstFile.feature:25)\r\n",
+              "duration": 4010371000,
+              "status": "failed"
+            },
+            "line": 25,
+            "name": "user launch chrome browser",
+            "match": {
+              "location": "com.nopcommerce.stepdef.testStepdef.user_launch_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1058500,
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "user open URL \"https://admin-demo.nopcommerce.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://admin-demo.nopcommerce.com/\"",
+                  "offset": 14
+                }
+              ],
+              "location": "com.nopcommerce.stepdef.testStepdef.user_open_url(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "User enter login credentials",
+            "match": {
+              "location": "com.nopcommerce.stepdef.testStepdef.user_enter_login_credentials()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 881700,
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "User click on login",
+            "match": {
+              "location": "com.nopcommerce.stepdef.testStepdef.user_click_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "User check tha page title \"Dashboard / nopCommerce administration\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dashboard / nopCommerce administration\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.nopcommerce.stepdef.testStepdef.user_check_tha_page_title(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 596700,
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "User click on logout",
+            "match": {
+              "location": "com.nopcommerce.stepdef.testStepdef.user_click_on_logout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "User close the browser",
+            "match": {
+              "location": "com.nopcommerce.stepdef.testStepdef.user_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@Loginpage"
+          }
+        ]
+      }
+    ],
+    "name": "Login Test Feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "login-test-feature",
+    "keyword": "Feature",
+    "uri": "classpath:features/firstFile.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
